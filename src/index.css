@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Monoton&display=swap');
+@import "tailwindcss";
+@theme{
+  --font-sail: Sail, "sans-serif";
+  --font-playfair: PlayFair Display, "san-serif";
+  --font-nimbus: Nimbus, "sans-serif";
+  --font-quicksand: Quicksand, "sans-serif";
+  --font-merienda: Merienda, "sans-serif";
+  --font-nunito: Nunito, "sans-serif";
+  --font-pacifico: Pacifico, "sans-serif";
+  --font-monoton: Monoton, "sans-serif";
+  --font-lato: Lato, "sans-serif";
+  --font-inter: Inter, "sans-serif";
+}
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+html {
+  scroll-behavior: smooth;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
