@@ -1,6 +1,6 @@
 import React from "react";
 import HeroImage from "../assets/christy.jpg";
-import HeroPicture from "../assets/christie.jpg";
+import HeroPicture from "../assets/christie.JPG";
 import { motion } from "framer-motion";
 import { RxDoubleArrowDown } from "react-icons/rx";
 import FloatingEffects from "../components/FloatingEffects";
