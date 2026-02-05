@@ -18,7 +18,6 @@ const Certifications = () => {
         );
 
         const text = await res.text();
-        console.log("RAW RESPONSE:", text);
 
         const data = JSON.parse(text);
 
